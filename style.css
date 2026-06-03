@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:#006400;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1400&q=80');
+    background-size:cover;
+    color:white;
+}
+
+.hero button{
+    padding:10px 20px;
+    margin-top:15px;
+    border:none;
+    background:orange;
+    cursor:pointer;
+}
+
+section{
+    padding:40px 20px;
+}
+
+.card-container{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    flex:1;
+    min-width:200px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    max-width:400px;
+}
+
+form input,
+form textarea{
+    margin:10px 0;
+    padding:10px;
+}
+
+form button{
+    padding:10px;
+    background:#006400;
+    color:white;
+    border:none;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
